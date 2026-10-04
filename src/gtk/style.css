@@ -1,0 +1,34 @@
+
+.title-large {
+    font-size: 115%;
+    font-weight: 550;
+}
+
+.title-leading {
+    font-weight: 500;
+}
+
+.title-secondly {
+    font-size: 92.5%;
+}
+
+gridview child {
+    margin: 2px;
+    padding: 0px;
+}
+
+searchbar revealer box {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+tabbar revealer box {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+label.lyrics-line {
+    transition: all 500ms ease-in-out;
+}
+
+

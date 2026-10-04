@@ -1,0 +1,26 @@
+Source: g4music-custom
+Section: sound
+Priority: optional
+Maintainer: Custom Build <custom@build.local>
+Build-Depends: debhelper (>= 12),
+               meson,
+               ninja-build,
+               valac,
+               libgtk-4-dev,
+               libadwaita-1-dev,
+               libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/neithern/g4music
+
+Package: g4music-custom
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libgtk-4-1,
+         libadwaita-1-0,
+         gstreamer1.0-plugins-base,
+         gstreamer1.0-plugins-good,
+         gstreamer1.0-plugins-bad
+Description: A beautiful, fast and fluent music player written in GTK4
+ Customized version of G4Music.
